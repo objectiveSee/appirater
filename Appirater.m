@@ -68,6 +68,7 @@ static id<AppiraterDelegate> _delegate;
 @implementation Appirater 
 
 @synthesize ratingAlert;
+@synthesize delegate = _delegate;
 
 + (void) setAppId:(NSString *)appId {
     _appId = appId;
